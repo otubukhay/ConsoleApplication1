@@ -12,6 +12,7 @@ namespace ConsoleApplication1
         {
             Object obj = new object();
             Type t =  obj.GetType();
+            t.ToString();
             
         }
     }

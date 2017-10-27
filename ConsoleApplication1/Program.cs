@@ -10,7 +10,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Object ibj = new object();
+            Object obj = new object();
+            Type t =  obj.GetType();
+            
         }
     }
 }
